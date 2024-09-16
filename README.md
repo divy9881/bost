@@ -9,45 +9,45 @@ BOST: Boice Object STore, a highly performant, reliable, multi-tiered, cost-effi
 - Can achieve high-performance, which is a requirement of the system being implemented
 
 ## TODOs
-- [] Optimal use of Storage tiers
-- [] Highly scalable
-    - [] Addition of new disks to the array
-    - [] Addition of new nodes to the cluster
-    - [] Decommisioning disks from the array
-    - [] Decommisioning nodes from the cluster
-- [] Kubernetes for orchestration
-- [] Highly reliable and resilient
-- [] High storage density for higher cost-efficiency
-    - [] No fragmentation
-    - [] Efficient Erasure Codes
-- [] Object Versioning
-- [] Incorporate gRPC for cross-node communication
-- [] Support for I/O sub-systems
-    - [] io-uring for newer kernerls
-    - [] aio for older kernels
-- [] RDMA support for bulk cross-node data transfers ?
-- [] Disk format
-    - [] Data
-    - [] Metadata
-- WORM ?
-- [] Efficient and Performant Computations
-    - [] Erase code computations
-    - [] Bit-rot computations
-- [] High throughput vs High latency ?
-- [] Disaster Recovery -  Continuous replication
-- [] Bit-rot protection
-- [] Encryption
-- [] Compression
-- [] Global federation ?
-- [] Self-healing objects ?
-- [] Workload isolation mechanisms
-- [] Authoriation
-- [] Minimal use of locks
-- [] Role-based work assignment
-    - [] Node-level
-    - [] Thread-level
-- [] De-duplication ?
-- [] AWS S3 compliant
-- [] Special cases
-    - [] Tiny objects (< 1 MB)
-    - [] Huge objects (> 1 GB)
+- [ ] Optimal use of Storage tiers
+- [ ] Highly scalable
+    - [ ] Addition of new disks to the array
+    - [ ] Addition of new nodes to the cluster
+    - [ ] Decommisioning disks from the array
+    - [ ] Decommisioning nodes from the cluster
+- [ ] Kubernetes for orchestration
+- [ ] Highly reliable and resilient
+- [ ] High storage density for higher cost-efficiency
+    - [ ] No fragmentation
+    - [ ] Efficient Erasure Codes
+- [ ] Object Versioning
+- [ ] Incorporate gRPC for cross-node communication
+- [ ] Support for I/O sub-systems
+    - [ ] io-uring for newer kernerls
+    - [ ] aio for older kernels
+- [ ] RDMA support for bulk cross-node data transfers ?
+- [ ] Disk format
+    - [ ] Data
+    - [ ] Metadata
+- [ ] WORM ?
+- [ ] Efficient and Performant Computations
+    - [ ] Erase code computations
+    - [ ] Bit-rot computations
+- [ ] High throughput vs High latency ?
+- [ ] Disaster Recovery -  Continuous replication
+- [ ] Bit-rot protection
+- [ ] Encryption
+- [ ] Compression
+- [ ] Global federation ?
+- [ ] Self-healing objects ?
+- [ ] Workload isolation mechanisms
+- [ ] Authoriation
+- [ ] Minimal use of locks
+- [ ] Role-based work assignment
+    - [ ] Node-level
+    - [ ] Thread-level
+- [ ] De-duplication ?
+- [ ] AWS S3 compliant
+- [ ] Special cases
+    - [ ] Tiny objects (< 1 MB)
+    - [ ] Huge objects (> 1 GB)
